@@ -17,7 +17,7 @@ const handleCheckUser =()=>[
   axios.get("http://localhost:4000/checkuserlogin").then(response=>{
     console.log(response);
   }).catch(error=>{
-    console.log("error",error);
+    console.log("frontend error",error);
   })
 ]
 const Logout = () => {
